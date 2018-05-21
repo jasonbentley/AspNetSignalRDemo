@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Chat</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <input type="text" id="messageText" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" id="sendMessage" class="btn btn-sm btn-success">Send</button>
+                    </div>
+                </div>
+                <input type="hidden" id="displayName" />
+            </div>
+            <div style="margin-top: 20px;">
+                <ul class="list-group" id="discussionList"></ul>
+            </div>
+        </div>
+    </div>
+</div>
